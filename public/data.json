@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nameProduct": "Snapback Cliveland Cavaliers",
+        "price": 8000,
+        "quanty": 1,
+        "img": "https://i.ibb.co/JRHCR69/cavs.jpg'" 
+        
+    },
+    {
+        "id": 2,
+        "nameProduct": "Snapback Boston Celtics",
+        "price": 8000,
+        "quanty": 1,
+        "img": "https://i.ibb.co/D1XszyX/celtics.jpg"
+        
+    },
+    {
+        "id": 3,
+        "nameProduct": "Snapback Chicago Bulls",
+        "price": 8000,
+        "quanty": 1,
+        "img": "https://i.ibb.co/10MXVm5/bulls.jpg"
+        
+    },
+    {
+        "id": 4,
+        "nameProduct": "Snapback NY Nickes",
+        "price": 8000,
+        "quanty": 1,
+        "img": "https://i.ibb.co/n01hHkg/knicks.jpg"
+        
+    },
+    {
+        "id": 5,
+        "nameProduct": "Snapback Toronto Raptors",
+        "price": 8000,
+        "quanty": 1,
+        "img": "https://i.ibb.co/1Mz7Sns/raptors.jpg"
+        
+    },
+    {
+        "id": 6,
+        "nameProduct": "Snapback Golden State Warriors",
+        "price": 8000,
+        "quanty": 1,
+        "img": "https://i.ibb.co/tqmg8bD/warriors.jpg"
+        
+    },
+    {
+        "id": 7,
+        "nameProduct": "SnapBack San Antonio Spurs",
+        "price": 8000,
+        "quanty": 1,
+        "img": "https://i.ibb.co/SdbCL9W/spurs.jpg"
+        
+    } 
+]
