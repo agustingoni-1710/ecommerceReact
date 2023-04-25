@@ -8,6 +8,7 @@ const DataProvider = ({ children }) =>{
 
     const [data, setData] = useState([]);
     const [cart, setCart] = useState([]);
+    const [search, setSearch ] = useState("");
 
     useEffect(() => {
         axios("data.json").then((res) => setData(res.data));
@@ -23,10 +24,36 @@ const DataProvider = ({ children }) =>{
         
     };
 
+    const searcher = (e) => {
+        setSearch(e.target.value)
+        console.log(e.target)
+    }
+
+
+
+    
+   const results = !search ? data : data.filter((item)=> item.nameProduct.toLowerCase().includes(search.toLocaleLowerCase()))
+
+
     return(
-        <dataContext.Provider value={{data, cart, setCart, buyProducts}}>
-            {children}
-        </dataContext.Provider>
+        <>
+            {/* <input value={search} onChange={searcher} type="text" placeholder="Search" className="form-control"/>
+            <tbody>
+                {
+                    results.map ((item) => (
+                        <tr key={item.id}>
+                            <td>{item.nameProduct}</td>
+                            <td> $ {item.price}</td>
+                            
+                        </tr>
+                    ))
+                }
+            </tbody> */}
+            <dataContext.Provider value={{data, cart, setCart, buyProducts, search, setSearch, searcher, results}}>
+                {children}
+            </dataContext.Provider>
+        </>
+
     )
 };
 
