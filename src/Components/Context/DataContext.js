@@ -37,18 +37,6 @@ const DataProvider = ({ children }) =>{
 
     return(
         <>
-            {/* <input value={search} onChange={searcher} type="text" placeholder="Search" className="form-control"/>
-            <tbody>
-                {
-                    results.map ((item) => (
-                        <tr key={item.id}>
-                            <td>{item.nameProduct}</td>
-                            <td> $ {item.price}</td>
-                            
-                        </tr>
-                    ))
-                }
-            </tbody> */}
             <dataContext.Provider value={{data, cart, setCart, buyProducts, search, setSearch, searcher, results}}>
                 {children}
             </dataContext.Provider>

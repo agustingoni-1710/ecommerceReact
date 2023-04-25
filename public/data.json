@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "category": "NBA",
         "nameProduct": "Snapback Cliveland Cavaliers",
         "price": 8000,
         "quanty": 1,
@@ -9,6 +10,7 @@
     },
     {
         "id": 2,
+        "category": "NBA",
         "nameProduct": "Snapback Boston Celtics",
         "price": 8000,
         "quanty": 1,
@@ -17,6 +19,7 @@
     },
     {
         "id": 3,
+        "category": "NBA",
         "nameProduct": "Snapback Chicago Bulls",
         "price": 8000,
         "quanty": 1,
@@ -25,6 +28,7 @@
     },
     {
         "id": 4,
+        "category": "NBA",
         "nameProduct": "Snapback NY Nickes",
         "price": 8000,
         "quanty": 1,
@@ -33,6 +37,7 @@
     },
     {
         "id": 5,
+        "category": "NBA",
         "nameProduct": "Snapback Toronto Raptors",
         "price": 8000,
         "quanty": 1,
@@ -41,6 +46,7 @@
     },
     {
         "id": 6,
+        "category": "NBA",
         "nameProduct": "Snapback Golden State Warriors",
         "price": 8000,
         "quanty": 1,
@@ -49,10 +55,11 @@
     },
     {
         "id": 7,
+        "category": "NBA",
         "nameProduct": "SnapBack San Antonio Spurs",
         "price": 8000,
         "quanty": 1,
         "img": "https://i.ibb.co/SdbCL9W/spurs.jpg"
         
-    } 
+    }
 ]
