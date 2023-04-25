@@ -27,21 +27,6 @@ const Products = () => {
         </div>
     )
     
-    /* data.map((product) =>{   
-        return(
-            <>
-                
-               <div className="card" key={product.id}>
-                    <img className="img" src={product.img} alt="img-product-card" />
-                    <h2>{product.nameProduct}</h2>
-                    <h3> $ {product.price}</h3>
-                    <button onClick={() => buyProducts(product)}>Comprar</button>
-                </div>
-            
-            </>
-        )
-    }) */
-    
 }
 
 export default Products
